@@ -1,0 +1,63 @@
+git --version
+
+git init
+
+git config --global user.name ''
+got config --global user.email ''
+
+git status
+
+git add .   [To add all file in staging area]
+or 
+git add specific_file_name  [To add specific file in staging area]
+or 
+git add *.html  [To add all html file in staging area]
+
+git status
+
+git rm --cached specific_file_name    [To remove from staging area]
+
+git commit
+
+git status 
+
+git commit -m 'Commit Comment'
+
+clear
+
+touch fileName.extension [ log.txt ]
+
+touch .gitignore  [The files and folder we don't wanna include in our repository at all . 				Inside the file , add those files or for directory 				
+/directory name , even *.txt]
+
+git branch BranchName [ To create a branch ]
+
+git checkout BranchName [To switch in branch]
+
+git checkout master  [To switch back]
+
+git merge BranchName
+
+
+
+
+
+git add .
+
+git commit -m 'Comment'
+
+git push 
+
+
+git clone LINK [ To download ]
+
+git pull
+
+
+Create Repository
+git clone https
+git status 
+git add .
+git status
+git commit -m 'Commint Comment'
+git push origin master
